@@ -1,4 +1,4 @@
-package General.Variables;
+package General.Variable;
 public class PrimitiveVariables {
     public static void main(String[] args) {
         int age = 231;  // (type of variable) (variable name) = (value of variable)

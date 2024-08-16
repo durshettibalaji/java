@@ -1,4 +1,4 @@
-package General.Variables;
+package General.Variable;
 
 import java.awt.Point;
 import java.util.Date;
