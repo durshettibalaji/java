@@ -1,4 +1,4 @@
-package src;
+package src.inro;
 
 public class Intro {
     public static void main(String []args){

@@ -1,4 +1,4 @@
-package src.inro;
+package src.Basics;
 
 public class Variable {
     public static void main(String[] args) {
