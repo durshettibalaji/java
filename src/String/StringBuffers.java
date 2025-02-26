@@ -9,6 +9,7 @@ public class StringBuffers {
         str.append(" hey ");
         // System.out.println(str.capacity());
         st = str.toString();
+        str.append(2);
         System.out.println(st);
     }
 }
