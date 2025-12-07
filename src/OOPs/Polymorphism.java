@@ -9,6 +9,10 @@ public class Polymorphism {
 
     Child c= new Child(); 
     c.show();
+    c.example();
+
+    Parent p1 = new Parent();
+        p1.example();
 
     }
 }
@@ -31,10 +35,17 @@ class Parent {
 void show(){
     System.out.println("Parent class");
 }
+void example(){
+    System.out.println("i am in parent class");
+}
 }
 
 class Child extends Parent {
-  void show(){                            // child show is overriding the parent show 
+    @Override
+    void example() {
+        System.out.println("i am in child class");
+    }
+    void show(){                            // child show is overriding the parent show
     System.out.println("Inside child");
 }
 }
