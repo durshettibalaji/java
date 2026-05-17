@@ -18,6 +18,13 @@ public static void main(String[] args) {
         System.out.print("  "+arr1[i]);
      }
      System.out.println();
+
+    int[] numbers;
+    numbers = new int[]{11, 92, 3, 48, 5};
+    for(int i=0;i<numbers.length;i++){
+        System.out.print("  "+numbers[i]);
+    }
+    System.out.println();
 System.out.println("         different for looop  ");
     for(int n : arr1){
         System.out.print("  "+n);
