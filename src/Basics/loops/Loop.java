@@ -1,7 +1,16 @@
 package src.Basics.loops;
-
-public class WhileLoop {
+public class Loop{
     public static void main(String[] args) {
+       WhileLoop w = new WhileLoop();
+       WhileLoop.whileloop();
+       ForLoop f = new ForLoop();
+       f.forloop();
+    }
+
+}
+
+ class WhileLoop {
+    public static void whileloop() {
         int i=0;
         // While loop will check the condition first if the condition is true then it will enter into the body
         while (i<10) {
@@ -33,5 +42,15 @@ public class WhileLoop {
             System.out.println("i am runing for the "+i+" time ");
         }
 
+    }
+}
+
+
+class ForLoop{
+    public  void forloop() {
+        // for loop is used when we know the number of times we want to execute the loop
+        for (int i = 0; i < 10; i++) {
+            System.out.println("i am runing for the "+i+" time ");
+        }
     }
 }

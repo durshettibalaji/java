@@ -1,3 +1,5 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "snyk.advanced.organization": "d5bbe1a4-01c9-46bc-924b-69a09313e2e0",
+    "snyk.advanced.autoSelectOrganization": true
 }
