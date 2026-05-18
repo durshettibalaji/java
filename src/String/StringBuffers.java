@@ -6,10 +6,12 @@ public class StringBuffers {
         String   st = "balaji";
         // System.out.println();
         StringBuffer str = new StringBuffer(st);
-        str.append(" hey ");
-        // System.out.println(str.capacity());
+        System.out.println(str.capacity());
+        str.append(" hey  how are how is your day how life is going on ");
+         System.out.println(str.capacity());
         st = str.toString();
-        str.append(2);
+        str.append(2000);
+        System.out.println(str.capacity());
         System.out.println(st);
     }
 }

@@ -2,11 +2,11 @@ package src;
 
 public class StaticThing {
     public static void main(String[] args) throws ClassNotFoundException {
-        StaticVariable sv = new StaticVariable();
-        StaticVariable.a=30;
-        sv.b=15;
-        sv.c=85;
         StaticVariable sv1 = new StaticVariable();
+        StaticVariable.a=30;
+        sv1.b=15;
+        sv1.c=85;
+        StaticVariable sv = new StaticVariable();
         StaticVariable.a=41;
         sv.b=45;
         sv.c=95;
