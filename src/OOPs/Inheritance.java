@@ -2,7 +2,7 @@ package src.OOPs;
 
 public class Inheritance {
     public static void main(String[] args) {
-        B obj = new B();
+        B obj = new B(10);
         obj.AB();
         // AdvCalc obj = new AdvCalc();
         // obj.add(10,20);
@@ -29,15 +29,17 @@ class B extends A{
         System.out.println("i am in B modifying A");
     }
 B(){
-    // this(10);
+    // super(0);
+    this(10);
     System.out.println("B");
 }
 B(int n){
-    // super();
+    // super(n);
     // this(10,20);
     System.out.println("int B");
 }
 B(int a,int b){
+    // super(a);
     // this();
     System.out.println("int    int   B");
 }
