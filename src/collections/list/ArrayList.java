@@ -1,4 +1,4 @@
-package src.collections;
+package src.collections.list;
 import java.util.*;
 
 class Main {

@@ -22,7 +22,7 @@ public class LinkedHashSetClass {
         lh.add("B");
         lh.add("Z");
 
-        Iterator itr = lh.iterator();
+        Iterator<String> itr = lh.iterator();
 
         while (itr.hasNext())
             System.out.print(itr.next() + ", ");
